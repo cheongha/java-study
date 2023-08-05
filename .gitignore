@@ -22,3 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IntelliJ 의 IDE 옵션(프로젝트별 설정값)을 저장하는 폴더
+# 각 옵션은 작업자의 컴퓨터 환경에 맞춰서 변경 => 다른 작업자가 소스를 받을때 영향을 주지않기 위해 .gitignore 에 추가
+.idea/
