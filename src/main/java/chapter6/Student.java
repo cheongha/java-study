@@ -11,7 +11,7 @@ public class Student {
     }
 
     public void takeBus(Bus bus){
-        System.out.println("승객 1명 버스 탑승");
+        System.out.println(studentName + " 승객 1명 버스 탑승");
         bus.getPassenger(BUS_PRICE);
         this.money -= BUS_PRICE;
     }
